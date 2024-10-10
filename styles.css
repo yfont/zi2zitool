@@ -1,0 +1,175 @@
+/* 通用样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 页面内容居中 */
+}
+
+/* 导航条样式 */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.navbar .logo {
+    height: 50px;
+}
+
+.navbar a {
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 14px; /* 调整字体大小 */
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* 头部图片 */
+.header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+.header img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+/* 主内容区域 */
+.main-content {
+    display: flex;
+    width: 1000px; /* 总宽度 */
+    margin: 20px; /* 外边距 */
+    box-sizing: border-box;
+}
+
+/* 左侧：字体预览 */
+.font-preview {
+    width: 800px;
+    margin-right: 20px; /* 右侧留出空间 */
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-section {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-section input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    font-size: 16px; /* 调整输入框字体大小 */
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.slider-label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.input-section input[type="range"] {
+    width: 150px;
+}
+
+#fontSizeValue {
+    margin-left: 10px;
+    font-size: 14px;
+    min-width: 40px;
+    text-align: left;
+}
+
+/* 字体样本 */
+.font-sample {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0; /* 调整内边距 */
+}
+
+.font-sample:last-child {
+    border-bottom: none; /* 最后一个样本去除下边框 */
+}
+
+.font-sample-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; /* 标题与预览间距 */
+}
+
+.font-name {
+    font-size: 14px; /* 调整字体名称大小 */
+    font-weight: bold;
+}
+
+.font-preview-text {
+    font-size: 24px; /* 默认预览文字大小 */
+    line-height: 1.5; /* 调整行高 */
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 5px 10px; /* 调整按钮大小 */
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px; /* 调整按钮字体大小 */
+    transition: background-color 0.3s ease;
+}
+
+.download-btn:hover {
+    background-color: #45a049;
+}
+
+/* 右侧：厂商信息 */
+.vendor-info {
+    width: 200px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.vendor-info h2 {
+    margin-top: 0;
+    font-size: 18px; /* 调整标题大小 */
+}
+.vendor-info p {
+    font-size: 14px; /* 调整厂商信息文字大小 */
+    margin: 10px 0;
+}
+
+/* 页脚 */
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
